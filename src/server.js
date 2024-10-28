@@ -8,8 +8,13 @@ app.get('/', (req, res) => {
 app.get('/date', (req, res) => {
   res.send('date')
 })
+
 app.get('/test', (req, res) => {
   res.send('tes')
+})
+
+app.get('/a', (req, res) => {
+  res.send('a')
 })
 
 app.listen(3000, () => {
